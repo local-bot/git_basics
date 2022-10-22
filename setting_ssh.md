@@ -1,25 +1,28 @@
-# download repo
-git clone git@github.com:local-bot/git_basics
 
-- setting user
+# Setting shh enviroment
 
-git config --global user.name "user"
-git config --global user.emai "email@example.com"
+download repo
+> git clone git@github.com:local-bot/git_basics
+
+setting user
+> git config --global user.name "user"
+> git config --global user.emai "email@example.com"
 
 
-- edit or add some files
-nano README.md
+edit or add some files
+>nano README.md
 
-- include files to git in order to make changes to repo
-git add filename # or git add . for all files
-- undo includes
-git reset
+include files to git in order to make changes to repo
+> git add filename # or git add . for all files
 
-- check changes made
-git status
+undo includes
+> git reset
 
-- commit
-git commit -m "some infos about your changes"
+check changes made
+> git status
 
-- make changes definitive to the default master branch
-git push origin master
+commit
+> git commit -m "some infos about your changes"
+
+make changes definitive to the default master branch
+> git push origin master
