@@ -26,3 +26,23 @@ commit
 
 make changes definitive to the default master branch
 > git push origin master
+
+# for multiple repositories with diferent ssh keys
+
+create file ~/.ssh/config 
+
+it should look like this
+
+Host repo_user_1.github.com
+  HostName github.com
+  IdentityFile ~/.ssh/key_repo1
+  IdentitiesOnly yes
+
+Host repo_user_2.github.com
+  HostName github.com
+  IdentityFile ~/.ssh/key_repo2
+  IdentitiesOnly yes
+
+clone repos like this
+> git clone git@repo_user_1.github.com:local-bot/repo1
+> git clone git@repo_user_2.github.com:local-bot/repo2
