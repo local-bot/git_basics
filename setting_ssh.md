@@ -13,7 +13,7 @@ edit or add some files
 >nano README.md
 
 include files to git in order to make changes to repo
-> git add filename # or git add . for all files
+> git add filename # or git add -A for all files
 
 undo includes
 > git reset
