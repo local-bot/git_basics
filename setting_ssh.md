@@ -24,6 +24,9 @@ check changes made
 commit
 > git commit -m "some infos about your changes"
 
+show available branches
+> git branch
+
 make changes definitive to the default master branch
 > git push origin master
 
