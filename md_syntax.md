@@ -22,3 +22,17 @@ Here are some ideas to get you started:
 
 > Test
 >> test
+
+[]
+[x]
+
+Here is a [Link](https://github.com/local-bot/git_basics/ "some link").
+
+---
+**NOTE**
+
+Test
+Test
+...
+
+---
