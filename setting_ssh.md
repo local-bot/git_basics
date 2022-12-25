@@ -15,8 +15,10 @@ edit or add some files
 include files to git in order to make changes to repo
 > git add filename # or git add -A for all files
 
+
 undo includes
 > git reset
+> git reset filename
 
 check changes made
 > git status
@@ -29,6 +31,12 @@ show available branches
 
 make changes definitive to the default master branch
 > git push origin master
+
+remove files from repository
+> git rm file
+> git commit -m "Deleted the file from the git repository"
+> git push
+
 
 # for multiple repositories with diferent ssh keys
 
